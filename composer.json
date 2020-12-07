@@ -1,0 +1,13 @@
+{
+    "name": "ted/lib-jwt-php",
+    "description": "Une librairie qui permet d'implementer la logique JSON WEB TOKEN en PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Teddy Walter",
+            "email": "teddywalter2016@gmail.com"
+        }
+    ],
+    "require": {}
+}
