@@ -1,10 +1,10 @@
 <?php 
         require_once "../../autoload.php";
-        use encrypt\Encryption;
+        use jwt\JwtCreator;
         
-        $encry = new Encryption();
+        $encry = new JwtCreator();
 
-        $encry->Encrypt();
+        echo $encry->Encrypt();
     
 
 ?>

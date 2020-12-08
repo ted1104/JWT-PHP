@@ -14,7 +14,7 @@
         }
 
         public function Encrypt(){
-            echo "ENCRYPTE METHOD ".self::$key;
+            return "ENCRYPTE METHOD ".self::$key;
         }
 
         public function Decrypt(){
