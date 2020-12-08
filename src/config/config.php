@@ -1,5 +1,6 @@
 <?php 
     /*===ALL CONFIGURATIONS ======*/
+    namespace Configuration;
     class Configuration {
         protected static $key = "YOUR_KEY_HERE";
         protected static $db_host = "localhost";
