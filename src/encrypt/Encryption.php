@@ -10,11 +10,11 @@
         
         public function __construct(){
             self::$config = new Configuration();
-            // self::$key = self::$config::$key;
+            self::$key = self::$config::$key;
         }
 
         public function Encrypt(){
-            echo "ENCRYPTE METHOD";
+            echo "ENCRYPTE METHOD ".self::$key;
         }
 
         public function Decrypt(){
