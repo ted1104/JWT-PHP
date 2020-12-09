@@ -4,7 +4,7 @@
         
         $encry = new JwtCreator();
 
-        echo $encry->Encrypt();
+        echo $encry->JwtEncode();
     
 
 ?>

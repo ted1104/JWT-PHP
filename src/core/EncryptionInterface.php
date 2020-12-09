@@ -2,7 +2,7 @@
     namespace core;
     interface EncryptionInterface {
         
-        function Encrypt();
+        function Encrypt($data);
         function Decrypt();
 
     }

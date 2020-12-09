@@ -5,21 +5,12 @@
 
     class JwtCreator extends Encryption{
     
-        public function __construct(){
-    
-        }
+        public function __construct(){}
 
         public function JwtEncode(){
-            return $this->Encrypt();
+            $chaine = "Bonjour";
+            return $this->Encrypt($chaine);
         }
-
-        // public function Encrypt(){
-        //     echo "ENCRYPTE METHOD ".self::$key;
-        // }
-
-        // public function Decrypt(){
-        //     echo "DECRYPTE METHOD";
-        // }
 
     }
 
