@@ -7,9 +7,12 @@
     
         public function __construct(){}
 
-        public function JwtEncode(){
-            $chaine = "Bonjour";
-            return $this->Encrypt($chaine);
+        public function JwtEncode($dataTokenEncrypt){
+            return $this->Encrypt($dataTokenEncrypt);
+        }
+
+        public function JwtDecode($dataTokenToDecrypt){
+            return $this->Decrypt($dataTokenToDecrypt);
         }
 
     }

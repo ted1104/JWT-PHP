@@ -3,7 +3,7 @@
     interface EncryptionInterface {
         
         function Encrypt($data);
-        function Decrypt();
+        function Decrypt($data);
 
     }
 
